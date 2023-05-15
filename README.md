@@ -1,5 +1,5 @@
 # build-ml-workflow-on-amazon-sagemaker
-## Project Introduction
+## Project overview
 ### 1. Background
 Image Classifiers are used in the field of computer vision to identify the content of an image and it is used across a broad variety of industries, from advanced technologies like autonomous vehicles and augmented reality, to eCommerce platforms, and even in diagnostic medicine.
 You are hired as a Machine Learning Engineer for a scone-delivery-focused logistics company, Scones Unlimited, and you’re working to ship an Image Classification model. The image classification model can help the team in a variety of ways in their operating environment: detecting people and vehicles in video feeds from roadways, better support routing for their engagement on social media, detecting defects in their scones, and many more!
@@ -21,3 +21,37 @@ Step 4: Testing and evaluation
 Step 5: Optional challenge
 
 Step 6: Cleanup cloud resources
+
+## Project Environment
+
+### 1. Sagemaker Studio
+You should already have the Sagemaker Studio User created from earlier in the course, so you'll just need to launch the studio.
+
+In case you need a refresher:
+
+- Proceed to open up the AWS console from the AWS Gateway.
+- Click through the AWS console to Amazon Sagemaker.
+- Click through the main Sagemaker page to Amazon Sagemaker Studio from the left hand toolbar.
+- If a user does not exist already in the Sagemaker Studio Control Panel, Add user.
+- Select an execution role that has full Sagemaker Access, otherwise you can create a new role.
+- Create a role and proceed with creating the user.
+
+### 2. Lambda Functions
+You need the Lambda service to complete the project. At this point, you should have already created and deployed a few lambda functions at this point.
+
+In case you want to test it again:
+
+- Proceed to open up the AWS console from the AWS Gateway.
+- Click through the AWS console to Amazon Lambda.
+- Click to create a lambda function.
+- Test the lambda function is working
+
+### 3. Step Function Visual Editor
+
+You should have access to the step function visual editor. If you want to double-check:
+
+Proceed to open up the AWS console from the AWS Gateway.
+Click through the AWS console to Step Function.
+Click to create a state machine.
+Choose to design your workflow visually
+Create a simple Step function
